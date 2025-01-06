@@ -1,0 +1,7 @@
+http://localhost:8080/api/cars/1
+
+
+
+curl -H "Content-Type: application/json" \
+-d "{\"name\":\"Corvette\"}" \
+http://localhost:8080/api/cars 
